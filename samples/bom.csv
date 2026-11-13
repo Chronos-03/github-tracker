@@ -1,0 +1,5 @@
+Designator,Value,Footprint,Quantity,LCSC,Price
+"U1,U2",ESP32-S3-WROOM-1,Module_ESP32-S3,2,C2913202,2.45
+"SW1..SW71",Kailh_Choc_V1,SW_Choc_V1,71,C400221,0.35
+"D1..D71",1N4148W,D_SOD-123,71,C81598,0.01
+"U3",RC522_Mini,NFC_Breakout,1,,1.15

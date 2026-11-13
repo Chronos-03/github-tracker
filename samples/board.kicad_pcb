@@ -1,0 +1,8 @@
+(kicad_pcb (version 20221018)
+  (layers (0 "F.Cu" signal) (31 "B.Cu" signal))
+  (net 1 "GND") (net 2 "+3V3")
+  (gr_rect (start 100.0 50.0) (end 390.0 160.0) (layer "Edge.Cuts") (width 0.15))
+  (pad "1" smd rect (at 0 0) (size 1.5 1.5) (layers "F.Cu"))
+  (segment (start 10 10) (end 20 20) (width 0.25) (layer "F.Cu"))
+  (via (at 20 20) (size 0.6) (drill 0.3))
+)

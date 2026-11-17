@@ -1,0 +1,17 @@
+---
+watch_paths:
+  - src
+custom_fields: {}
+variables:
+  name: 'my-board'
+  layers: 2
+  vias: 1
+  traces: 1
+  parts: 4
+  missing_lcsc: 1
+  sprint_done: 12
+  sprint_total: 20
+  sprint_pct: 60
+  progress_svg: '<svg xmlns="http://www.w3.org/2000/svg" width="360" height="24" viewBox="0 0 360 24" shape-rendering="crispEdges"><rect x="1" y="1" width="358" height="22" fill="white" stroke="black" stroke-width="2"/><rect x="2" y="2" width="213" height="20" fill="black"/></svg>'
+  commit_svg: '<svg xmlns="http://www.w3.org/2000/svg" width="164" height="44" viewBox="0 0 164 44" shape-rendering="crispEdges"><g fill="black" stroke="black" stroke-width="2"><rect x="1" y="1" width="18" height="18" fill="white"/><rect x="25" y="1" width="18" height="18" fill="white"/><rect x="49" y="1" width="18" height="18" fill="white"/><rect x="73" y="1" width="18" height="18" fill="white"/><rect x="97" y="1" width="18" height="18" fill="white"/><rect x="121" y="1" width="18" height="18" fill="white"/><rect x="145" y="1" width="18" height="18" fill="white"/><rect x="1" y="25" width="18" height="18" fill="white"/><rect x="25" y="25" width="18" height="18" fill="white"/><rect x="49" y="25" width="18" height="18" fill="white"/><rect x="54" y="30" width="8" height="8" stroke="none"/><rect x="73" y="25" width="18" height="18" fill="white"/><rect x="97" y="25" width="18" height="18" fill="white"/><rect x="102" y="30" width="8" height="8" stroke="none"/><rect x="121" y="25" width="18" height="18" fill="white"/><rect x="145" y="25" width="18" height="18" fill="white"/></g></svg>'
+  updated_at: '2026-11-18 02:36'

@@ -1,0 +1,34 @@
+<div class="layout layout--col gap--medium">
+  <div class="grid grid--cols-4">
+    <div class="item"><div class="content">
+      <span class="value value--xlarge">{{ layers }}</span>
+      <span class="label">Layers</span>
+    </div></div>
+    <div class="item"><div class="content">
+      <span class="value value--xlarge">{{ vias }}</span>
+      <span class="label">Vias</span>
+    </div></div>
+    <div class="item"><div class="content">
+      <span class="value value--xlarge">{{ traces }}</span>
+      <span class="label">Traces</span>
+    </div></div>
+    <div class="item"><div class="content">
+      <span class="value value--xlarge">{{ missing_lcsc }}/{{ parts }}</span>
+      <span class="label">No LCSC</span>
+    </div></div>
+  </div>
+
+  <div>
+    <span class="label">Sprint {{ sprint_done }}/{{ sprint_total }} ({{ sprint_pct }}%)</span>
+    {{ progress_svg }}
+  </div>
+
+  <div>
+    <span class="label">Commits, last 14 days</span>
+    {{ commit_svg }}
+  </div>
+</div>
+<div class="title_bar">
+  <span class="title">{{ name }}</span>
+  <span class="instance">{{ updated_at }}</span>
+</div>
